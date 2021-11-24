@@ -1,0 +1,8 @@
+#################################################### build
+
+docker-blockchain:
+  extends: .build-template-buildkit
+  stage: docker-build
+  variables:
+    DOCKERFILE: $CI_PROJECT_DIR/Dockerfile
+    DESTINATION: app

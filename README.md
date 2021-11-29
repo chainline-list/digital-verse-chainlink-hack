@@ -52,9 +52,11 @@ create .env file (contact my telegram for API keys - @panichm)
 
 docker-compose build
 
-docker=compose up
+docker-compose up
 
 server runs on port -> localhost:4000
+
+Test request url -> http://localhost:4000/create/polygon with raw body -> { "url": "merge/26/9dc1fa48-dd03-4010-a621-b36309ea565f.mp4"}
 
 ## Deployed smart contracts
 
